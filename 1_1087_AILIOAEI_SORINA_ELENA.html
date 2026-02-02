@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+        <title>Program desenare raster</title>
+        <link href="1_1087_AILIOAEI_SORINA_ELENA.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="font-effect-outline">Program de desenare RASTER</h1>
+        <div class="toolbar">
+            <select id="instrumente">
+                <option value="elipsa">Elipsa</option>
+                <option value="dreptunghi">Dreptunghi</option>
+                <option value="linie">Linie</option>
+            </select>
+        <label for="color">CULOARE:</label>
+        <input type="color" id="color" value="#000000"> 
+        <label for="colorContur">CULOARE CONTUR:</label>
+        <input type="color" id="colorContur" value="#000000">
+        <label for="grosime">GROSIME CONTUR:</label>
+        <input type="number" id="grosime" value="2" min="1" max="10">
+        <label for="colorBKG">CULOARE FUNDAL:</label>
+        <input type="color" id="colorBKG" value="#FFFFFF">
+        </div>
+
+        <canvas id="canvas" width="1500px" height="570px" ></canvas>
+        
+        <button id="salvare" style="   margin-right: 10px; margin-left: 1300px;">Salvează ca PNG</button>
+        
+        <div id="listaForme">
+            <h3>Forme desenate:</h3>
+            <ul id="lista"></ul>
+        </div>
+    </body>
+    
+    <script src="1_1087_AILIOAEI_SORINA_ELENA.js"></script> 
+
+</html>

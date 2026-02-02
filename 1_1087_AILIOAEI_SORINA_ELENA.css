@@ -1,0 +1,38 @@
+body{
+    font-family: Comic Sans MS;
+    display: flex;
+    flex-direction: column;
+    color: blueviolet;
+    background-image: url(media/background.png);
+    margin: 10px;
+}
+canvas{
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: crosshair;
+    background-color: white;
+}
+h1.font-effect-outline{
+    font-family: Audiowide, sans-serif;
+    align-self: center;
+    color: violet;
+}
+.toolbar{
+    margin-top: 20px;
+}
+.salvareBtn{  
+    margin-left: 1200px;
+}
+button{
+    font-family: Comic Sans MS;
+    color: aliceblue;
+    background-color: blueviolet;
+    border: 3px solid rgb(72, 17, 102);
+}
+h3{
+    color: rgb(6, 3, 93);
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+}
